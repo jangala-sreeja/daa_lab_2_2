@@ -51,10 +51,7 @@ void main()
 		if(profit>max)
 		{
 			max=profit;
-			for(k=0;k<n;k++)
-			{
-				final[i]=bin[i];
-			}
+			
 		}
 	}
 	printf("The maximum profit is %d",max);
