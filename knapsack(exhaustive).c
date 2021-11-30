@@ -42,7 +42,7 @@ void main()
 		reverse();
 		for(j=0;j<n;j++)
 		{
-			if(bin[j]!=0 && wt[j]<=temp)
+			if(rb[j]!=0 && wt[j]<=temp)
 			{
 				profit=profit+val[j];
 				temp=temp-wt[j];
